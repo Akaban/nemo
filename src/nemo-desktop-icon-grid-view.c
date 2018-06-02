@@ -1163,7 +1163,7 @@ static const GtkRadioActionEntry desktop_size_radio_entries[] = {
   { "Desktop Large", NULL,
     N_("Larger"), NULL,
     N_("Display larger icons"),
-    NEMO_ZOOM_LEVEL_LARGE }
+    NEMO_ZOOM_LEVEL_LARGEST }
 };
 
 static const GtkActionEntry desktop_grid_entries[] = {
