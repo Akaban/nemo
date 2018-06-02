@@ -205,6 +205,9 @@ desktop_handler_is_ignored (GdkWindow *window, gchar **ignored)
 static gboolean
 desktop_already_managed (void)
 {
+
+    return 0; //ignore all handlers 
+
     GdkScreen *screen;
     GList *windows, *iter;
     gboolean ret;
